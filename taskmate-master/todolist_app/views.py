@@ -81,6 +81,6 @@ def contact(request):
 
 def about(request):
     context = {
-        'about_text':"Welcome About Page.",
+        'about_text':"Welcome About Page. Riyaz",
         }
     return render(request, 'about.html', context)
